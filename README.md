@@ -7,14 +7,21 @@ I like clean and simple color schemes. Like many others, I started with monokai,
 I have my issues with AI, but I will admit, it has become an invaluable replacement to something like stackoverflow. It's great at helping me "google" my questions, and did a great job at helping me generate these themes. That being said, these themes are not perfect, so don't expect the refinement you would get from something like Cattpuccin or Rose Pine. 
 
 ## Colour Palette
-- todo
 
+![palette](./images/iskald-palette.png)
 
-## Screenshots 
-- todo 
+```
+ $black:       "#000000"
+ $darkgrey:    "#2F4550"
+ $medgrey:     "#577787"
+ $lightblue:   "#B8DBD9"
+ $offwhite:    "#F4F4F9"
+```
 
-## Supported Apps
-- todo 
+## Screenshot
+
+![Screenshot](./images/iskald.png)
+
 
 ## How to install?  
 

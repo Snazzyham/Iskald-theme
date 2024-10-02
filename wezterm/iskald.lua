@@ -3,7 +3,7 @@ local wezterm = require 'wezterm'
 return {
   color_scheme = "iskald",
   color_schemes = {
-    ["HamBlue"] = {
+    ["Iskald"] = {
       foreground = "#F4F4F9",
       background = "#000000",
       cursor_bg = "#F4F4F9",
