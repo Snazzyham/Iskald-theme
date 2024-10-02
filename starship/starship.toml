@@ -1,0 +1,177 @@
+palette="iskald"
+
+## FIRST LINE/ROW: Info & Status
+# First param ─┌
+[username]
+format = " [$user]($style) at "
+show_always = true
+style_root = "color_1"
+style_user = "color_2"
+
+# Second param
+[hostname]
+disabled = false
+format = "[$hostname]($style) in "
+ssh_only = true
+style = "color_2"
+trim_at = "-"
+
+# Third param
+[directory]
+style = "color_3"
+truncate_to_repo = true
+truncation_length = 0
+truncation_symbol = "  "
+
+# Fourth param
+[sudo]
+disabled = false
+
+# Before all the version info (python, nodejs, php, etc.)
+[git_status]
+ahead = "⇡${count}"
+behind = "⇣${count}"
+deleted = "x"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+style = "color_4"
+
+# Last param in the first line/row
+[cmd_duration]
+disabled = false
+format = "took [$duration]($style)"
+min_time = 1000
+style = "color_4"
+
+
+## SECOND LINE/ROW: Prompt
+# Somethere at the beginning
+[battery]
+charging_symbol = ""
+disabled = true
+discharging_symbol = ""
+full_symbol = ""
+
+[[battery.display]]  # "bold red" style when capacity is between 0% and 10%
+disabled = false
+style = "color_4"
+threshold = 15
+
+[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
+disabled = true
+style = "bold yellow"
+threshold = 50
+
+[[battery.display]]  # "bold green" style when capacity is between 10% and 30%
+disabled = true
+style = "bold green"
+threshold = 80
+
+# Prompt: optional param 1
+[time]
+disabled = true
+format = " 🕙 $time($style)\n"
+style = "color_4"
+time_format = "%T"
+
+# Prompt: param 2
+[character]
+error_symbol = " [×](bold color_1)"
+success_symbol = " [❯](bold color_1)"
+
+# SYMBOLS
+[status]
+disabled = false
+format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
+map_symbol = true
+pipestatus = true
+symbol = "🔴"
+
+[aws]
+symbol = " "
+style = "color_3"
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker_context]
+symbol = " "
+style = "color_3"
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+style = "bold cambridgeblue"
+
+[golang]
+symbol = " "
+style = "color_3"
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+style = "color_3"
+
+[package]
+symbol = "󰏖 "
+style = "color_4"
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
+
+
+[palettes.iskald]
+color_fg = "#F4F4F9"
+color_bg = "#000000"
+color_0 = "#000000"
+color_1 = "#2F4550"
+color_2 = "#586F7C"
+color_3 = "#B8DBD9"
+color_4 = "#F4F4F9"
+color_5 = "#2F4550"
+color_6 = "#B8DBD9"
+color_7 = "#F4F4F9"
+color_8 = "#2F4550"
+color_9 = "#586F7C"
+color_10 = "#B8DBD9"
+color_11 = "#F4F4F9"
+color_12 = "#586F7C"
+color_13 = "#B8DBD9"
+color_14 = "#F4F4F9"
+color_15 = "#F4F4F9"

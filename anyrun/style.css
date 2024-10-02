@@ -1,0 +1,64 @@
+* {
+  all: unset;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#window {
+  background: #000000;
+  border-radius: 8px;
+  border: 2px solid #577787;
+}
+
+#main {
+  padding: 8px;
+}
+
+#entry {
+  background: #2F4550;
+  color: #F4F4F9;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+#entry:focused {
+  border: 2px solid #B8DBD9;
+}
+
+#plugin {
+  color: #B8DBD9;
+  padding: 4px 8px;
+  margin-top: 4px;
+}
+
+#match {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+#match:selected {
+  background: #577787;
+}
+
+#match-title {
+  color: #F4F4F9;
+  font-size: 14px;
+}
+
+#match-desc {
+  color: #B8DBD9;
+  font-size: 12px;
+}
+
+#plugin #gtk-box {
+  margin-top: 4px;
+}
+
+#plugin #gtk-label {
+  color: #577787;
+  font-size: 12px;
+}
+
+#plugin #gtk-image {
+  margin-right: 8px;
+}
