@@ -175,3 +175,24 @@ color_12 = "#586F7C"
 color_13 = "#B8DBD9"
 color_14 = "#F4F4F9"
 color_15 = "#F4F4F9"
+
+
+[palettes.iskald_light]
+color_fg = "#2F4550"
+color_bg = "#2F4550"
+color_0 = "#000000"
+color_1 = "#2F4550"
+color_2 = "#586F7C"
+color_3 = "#2F4550" # Changed from #B8DBD9 to #2F4550
+color_4 = "#2F4550" # Changed from #F4F4F9 to #2F4550
+color_5 = "#2F4550"
+color_6 = "#2F4550" # Changed from #B8DBD9 to #2F4550
+color_7 = "#2F4550"
+color_8 = "#2F4550"
+color_9 = "#586F7C"
+color_10 = "#2F4550" # Changed from #B8DBD9 to #2F4550
+color_11 = "#2F4550" # Changed from #F4F4F9 to #2F4550
+color_12 = "#2F4550"
+color_13 = "#2F4550" # Changed from #B8DBD9 to #2F4550
+color_14 = "#2F4550" # Changed from #F4F4F9 to #2F4550
+color_15 = "#2F4550" # Changed from #F4F4F9 to #2F4550
